@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary: #ea6d27;
+    --color-dark: #101a24;
+    --color-gray: #d1d0d0;
+
+    --radius-4xl: 4rem;
+}
+
+@layer base {
+    p {
+        @apply text-lg text-black;
+    }
+}
+
+@layer components {
+    .rounded-btn {
+        @apply rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md;
+    }
+}
