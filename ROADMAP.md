@@ -22,11 +22,11 @@
 
 # Phase 5 : Section "Welcome" & "Our Chef"
 ​[x] Intégration de la section "Welcome to Our Restaurant" (Image à gauche, texte à droite).
-​[ ] Intégration de la section "Our Expert Chef" (Mise en avant du chef avec visuel circulaire).
+​[x] Intégration de la section "Our Expert Chef" (Mise en avant du chef avec visuel circulaire).
 
 # Phase 6 : Preuve Sociale & Engagement
 ​[ ] Section "Our Happy Customers" (Cards de témoignages avec avatars).
-​[ ] Bannière Newsletter (Input email + bouton "Add Me").
+​[x] Bannière Newsletter (Input email + bouton "Add Me").
 ​[ ] Ajout des éléments décoratifs en arrière-plan (dessins de légumes/épices).
 
 # Phase 7 : Polissage & Responsive
