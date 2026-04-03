@@ -12,6 +12,10 @@
     p {
         @apply text-lg text-black;
     }
+
+    h3 {
+        @apply text-lg text-black font-bold;
+    }
 }
 
 @layer components {
