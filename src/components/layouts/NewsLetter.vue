@@ -1,16 +1,16 @@
 <template>
 <!-- Newsletter CTA Section - Mobile-First Responsive -->
-<div class="w-full py-12 md:py-16 lg:py-20">
+<div class="relative flex items-center justify-center w-full py-12 md:py-16 lg:py-20">
     <!-- Conteneur principal avec max-width -->
-    <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+    <div class="absolute -top-64 max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <!-- Conteneur CTA avec background image responsive -->
-        <div class="relative flex flex-col items-center justify-center rounded-2xl md:rounded-3xl overflow-hidden bg-cover bg-no-repeat bg-center min-h-72 md:min-h-96 lg:min-h-125" style="background-image: url('/src/assets/cta-img-bg1.jpg')">
+        <div class="relative flex flex-col items-center justify-center rounded-2xl md:rounded-3xl overflow-hidden bg-cover bg-no-repeat bg-center min-h-72 md:min-h-96 lg:min-h-125 lg:px-32" style="background-image: url('/src/assets/cta-img-bg1.jpg')">
             
             <!-- Overlay sombre pour meilleure lisibilité du texte -->
             <div class="absolute inset-0 bg-black/40"></div>
             
             <!-- Contenu du CTA - Positionnement relative au-dessus du background -->
-            <div class="relative z-10 flex flex-col items-center gap-6 md:gap-8 lg:gap-10 px-4 md:px-6 lg:px-8 py-8 md:py-12 lg:py-16 text-center">
+            <div class="relative z-10 flex flex-col items-center gap-6 md:gap-8 lg:gap-10 px-4 md:px-4 lg:px-6 py-8 md:py-8 lg:py-10 text-center">
                 
                 <!-- Titre responsive -->
                 <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
