@@ -43,9 +43,9 @@
                 <div class="flex flex-col items-start gap-3 md:gap-4">
                     <h3 class="text-base md:text-lg font-bold uppercase tracking-wider">Follow Us</h3>
                     <div class="flex items-center gap-4 md:gap-5">
-                        <InstaLogo class="w-8 h-8 md:w-10 md:h-10 hover:opacity-70 transition-opacity duration-200 cursor-pointer" />
-                        <FacebookLogo class="w-8 h-8 md:w-10 md:h-10 hover:opacity-70 transition-opacity duration-200 cursor-pointer" />
-                        <TwitterLogo class="w-8 h-8 md:w-10 md:h-10 hover:opacity-70 transition-opacity duration-200 cursor-pointer" />
+                        <Instagram class="w-7 h-7 md:w-8 md:h-8 hover:text-primary transition-all duration-400 cursor-pointer" />
+                        <Facebook class="w-7 h-7 md:w-8 md:h-8 hover:text-primary  transition-all duration-400 cursor-pointer" />
+                        <Twitter class="w-7 h-7 md:w-8 md:h-8 hover:text-primary  transition-all duration-400 cursor-pointer" />
                     </div>
                 </div>
             </div>
@@ -90,9 +90,7 @@
 </template>
 
 <script setup>
-    import Logo from '/src/assets/Group 13.svg?component'
-    import InstaLogo from '/src/assets/icons8-instagram 1.svg?component'
-    import FacebookLogo from '/src/assets/image 1.svg?component'
-    import TwitterLogo from '/src/assets/image 2.svg?component'
+    import Logo from '/src/assets/Group 13.svg?component';
+    import { Instagram, Facebook, Twitter } from 'lucide-vue-next';
 
 </script>

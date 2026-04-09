@@ -29,8 +29,12 @@
           </div>
 
           <!-- Étoiles -->
-          <div class="flex justify-center gap-1 text-4xl text-amber-400 mb-8">
-            ★★★★★
+          <div class="flex justify-center gap-1 text-4xl text-amber-400 mb-8 mt-4">
+            <Star fill="#ea6d27" stroke-width="0" class="w-6 h-6" />
+            <Star fill="#ea6d27" stroke-width="0" class="w-6 h-6" />
+            <Star fill="#ea6d27" stroke-width="0" class="w-6 h-6" />
+            <Star fill="#ea6d27" stroke-width="0" class="w-6 h-6" />
+            <Star fill="#ea6d27" stroke-width="0" class="w-6 h-6" />
           </div>
 
           <!-- Citation -->
@@ -57,6 +61,8 @@
 </template>
 
 <script setup>
+import { Star } from 'lucide-vue-next';
+
 const testimonials = [
   {
     id: 1,

@@ -10,9 +10,9 @@
             </div>
         </div>
         <div class="flex items-center p-6 gap-5">
-            <InstaLogo class="h-10 w-10" />
-            <FacebookLogo/>
-            <TwitterLogo/>
+            <Instagram class="w-7 h-7 md:w-8 md:h-8 hover:text-primary transition-all duration-400 cursor-pointer" />
+            <Facebook class="w-7 h-7 md:w-8 md:h-8 hover:text-primary  transition-all duration-400 cursor-pointer" />
+            <Twitter class="w-7 h-7 md:w-8 md:h-8 hover:text-primary  transition-all duration-400 cursor-pointer" />
         </div>
     </div>
     <div class="flex relative">
@@ -35,9 +35,7 @@
 </template>
 
 <script setup>
-    import InstaLogo from '/src/assets/icons8-instagram 1.svg?component'
-    import FacebookLogo from '/src/assets/image 1.svg?component'
-    import TwitterLogo from '/src/assets/image 2.svg?component'
-    import PlaceImage from '/src/assets/pexels-volkan-vardar-3887985 1.jpg'
-    import DishImage from '/src/assets/dish-2 1.jpg'
+    import { Instagram, Facebook, Twitter } from 'lucide-vue-next';
+    import PlaceImage from '/src/assets/pexels-volkan-vardar-3887985 1.jpg';
+    import DishImage from '/src/assets/dish-2 1.jpg';
 </script>
