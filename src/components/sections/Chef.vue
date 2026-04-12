@@ -1,15 +1,31 @@
 <template>
-    <section id="chef" class="flex items-center justify-center gap-7 w-screen">
-        <div class="flex items-start p-4 my-6 gap-19">
-            <div class="flex flex-col items-start p-4 m-8 mt-32">
-                <h2 class="text-5xl text-black font-bold p-2 mb-5">Our Expects Chef</h2>
-                <p class="p-2">Lorem ipsum dolor sit amet, consectetur<br/> elit, sed do eiusmod tempor incididunt<br/> labore et dolore magna aliqua.</p>
-                <div class="flex items-center p-2 mt-3 gap-6">
-                    <button class="rounded-btn text-white bg-black text-lg px-8 py-3">Menu</button>
-                    <button class="rounded-btn text-white bg-primary text-lg px-8 py-3">Book to table</button>
+    <section id="chef" class="w-full max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 lg:gap-8 py-6 md:py-8 lg:py-12">
+            <!-- Contenu texte -->
+            <div class="flex flex-col items-start w-full md:w-1/2 p-4 md:p-6 lg:p-8">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl text-black font-bold mb-4 md:mb-5 lg:mb-6">Our Expects Chef</h2>
+                <p class="text-sm md:text-base lg:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8 lg:mb-10">
+                    Lorem ipsum dolor sit amet, consectetur<br class="hidden md:block"/> elit, sed do eiusmod tempor incididunt<br class="hidden md:block"/> labore et dolore magna aliqua.
+                </p>
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 md:gap-4 w-full sm:w-auto">
+                    <button class="rounded-btn text-white bg-black text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:bg-gray-800 transition-colors">
+                        Menu
+                    </button>
+                    <button class="rounded-btn text-white bg-primary text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:opacity-90 transition-opacity">
+                        Book to table
+                    </button>
                 </div>
             </div>
-            <img :src="ChefImage" alt="Dish" loading="lazy" class="w-120 m-9">
+
+            <!-- Image -->
+            <div class="w-full md:w-1/2 flex justify-center">
+                <img 
+                    :src="ChefImage" 
+                    alt="Chef" 
+                    loading="lazy" 
+                    class="w-full max-w-xs md:max-w-sm lg:max-w-md h-auto"
+                >
+            </div>
         </div>
     </section>
 </template>
