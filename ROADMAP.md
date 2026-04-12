@@ -7,13 +7,13 @@
 
 # Phase 2 : Navigation & Layout Global
 ​[x] Création du composant Navbar.vue (Logo, Menu, Bouton "Order Now").
-​[ ] Création du composant Footer.vue (Colonnes de liens, Réseaux sociaux).
-​[ ] Mise en place du layout principal dans App.vue.
+​[x] Création du composant Footer.vue (Colonnes de liens, Réseaux sociaux).
+​[x] Mise en place du layout principal dans App.vue.
 
 # Phase 3 : Section Hero (L'accroche)
 ​[x] Intégration du texte principal et des boutons d'action.
-​[ ] Mise en page complexe des images (Plat central + vue restaurant avec bordures arrondies).
-​[ ] Gestion du responsive pour mobile/desktop.
+​[x] Mise en page complexe des images (Plat central + vue restaurant avec bordures arrondies).
+​[x] Gestion du responsive pour mobile/desktop.
 
 # Phase 4 : Section "Our Special Dishes"
 ​[x] Création d'un composant réutilisable Dish.vue.
@@ -25,7 +25,7 @@
 ​[x] Intégration de la section "Our Expert Chef" (Mise en avant du chef avec visuel circulaire).
 
 # Phase 6 : Preuve Sociale & Engagement
-​[ ] Section "Our Happy Customers" (Cards de témoignages avec avatars).
+​[x] Section "Our Happy Customers" (Cards de témoignages avec avatars).
 ​[x] Bannière Newsletter (Input email + bouton "Add Me").
 ​[ ] Ajout des éléments décoratifs en arrière-plan (dessins de légumes/épices).
 
