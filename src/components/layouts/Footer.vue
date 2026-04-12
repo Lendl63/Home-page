@@ -1,7 +1,7 @@
 <template>
     <footer class="w-full bg-white">
         <!-- Conteneur principal avec max-width -->
-        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-12 md:py-16 lg:py-20 mt-40">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-18 md:py-16 lg:py-20 md:mt-10 lg:mt-34">
             
             <!-- Section 1: Grille des colonnes footer - Mobile-First -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-10 mb-8 md:mb-12 lg:mb-16">
