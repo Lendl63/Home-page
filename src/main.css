@@ -6,6 +6,8 @@
     --color-gray: #d1d0d0;
 
     --radius-4xl: 4rem;
+
+    --breakpoint-sm: 540px;
 }
 
 @layer base {
