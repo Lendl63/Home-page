@@ -1,35 +1,65 @@
 <template>
- <section id="hero" class="flex items-center justify-around px-9 my-24">
-    <div class="flex flex-col p-3 gap-8">
-        <h1 class="text-6xl font-bold text-black mb-4">We provide the<br/> best food for your</h1>
-        <div class="flex flex-col items-start gap-4">
-            <p>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit, sed do eiusmod tempor incididunt<br/> ut labore et dolore magna aliqua.</p>
-            <div class="flex items-center p-3 gap-6">
-                <button class="rounded-btn text-white bg-black text-lg px-8 py-3">Menu</button>
-                <button class="rounded-btn text-white bg-primary text-lg px-8 py-3">Book to table</button>
+ <section id="hero" class="w-full max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-6 lg:gap-8 px-4 md:px-6 lg:px-8 py-8 md:py-12 lg:py-20">
+        <!-- Texte et contenu -->
+        <div class="w-full lg:w-1/2 flex flex-col gap-6 md:gap-7 lg:gap-8">
+            <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold text-black leading-tight">
+                We provide the<br class="hidden sm:block" /> best food for your
+            </h1>
+            
+            <div class="flex flex-col items-start gap-4 md:gap-5 lg:gap-6">
+                <p class="text-sm md:text-base lg:text-lg text-gray-700 leading-relaxed max-w-md">
+                    Lorem ipsum dolor sit amet, consectetur<br class="hidden md:block" /> adipiscing elit, sed do eiusmod tempor incididunt<br class="hidden md:block" /> ut labore et dolore magna aliqua.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 md:gap-4 w-full sm:w-auto">
+                    <button class="rounded-btn text-white bg-black text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:bg-gray-800 transition-colors">
+                        Menu
+                    </button>
+                    <button class="rounded-btn text-white bg-primary text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:opacity-90 transition-opacity">
+                        Book to table
+                    </button>
+                </div>
+            </div>
+
+            <!-- Icônes sociales -->
+            <div class="flex items-center gap-4 md:gap-5 lg:gap-6 pt-4 md:pt-6">
+                <Instagram class="w-5 md:w-6 lg:w-7 h-5 md:h-6 lg:h-7 hover:text-primary transition-all duration-400 cursor-pointer" />
+                <Facebook class="w-5 md:w-6 lg:w-7 h-5 md:h-6 lg:h-7 hover:text-primary transition-all duration-400 cursor-pointer" />
+                <Twitter class="w-5 md:w-6 lg:w-7 h-5 md:h-6 lg:h-7 hover:text-primary transition-all duration-400 cursor-pointer" />
             </div>
         </div>
-        <div class="flex items-center p-6 gap-5">
-            <Instagram class="w-7 h-7 md:w-8 md:h-8 hover:text-primary transition-all duration-400 cursor-pointer" />
-            <Facebook class="w-7 h-7 md:w-8 md:h-8 hover:text-primary  transition-all duration-400 cursor-pointer" />
-            <Twitter class="w-7 h-7 md:w-8 md:h-8 hover:text-primary  transition-all duration-400 cursor-pointer" />
+
+        <!-- Images (cachées sur mobile, visibles md+) -->
+        <div class="hidden lg:flex w-full lg:w-1/2 relative justify-center items-center">
+            <!-- Image overlay (plat en avant) -->
+            <img 
+                :src="DishImage" 
+                alt="Signature dish" 
+                loading="lazy" 
+                decoding="async"
+                class="absolute bottom-0 -left-8 lg:-left-12 h-32 md:h-40 lg:h-[40vh] bg-transparent z-50"
+            >
+            <!-- Image de fond (lieu) -->
+            <img 
+                :src="PlaceImage" 
+                alt="Restaurant ambiance" 
+                loading="lazy" 
+                decoding="async" 
+                class="h-48 md:h-64 lg:h-[80vh] w-auto rounded-tl-4xl rounded-br-4xl rounded-tr-3xl rounded-bl-3xl object-cover"
+            >
         </div>
-    </div>
-    <div class="flex relative">
-        <img 
-            :src="DishImage" 
-            alt="DishImage" 
-            loading="lazy" 
-            decoding="async"
-            class="absolute h-[40vh] bottom-0 -left-50 bg-transparent z-50"
-        >
-        <img 
-            :src="PlaceImage" 
-            alt="PlaceImage" 
-            loading="lazy" 
-            decoding="async" 
-            class="h-[80vh] rounded-tl-4xl rounded-br-4xl rounded-tr-3xl rounded-bl-3xl"
-        >
+
+        <!-- Images mobiles (affichées uniquement sur mobile, version simplifiée) -->
+        <div class="flex lg:hidden w-full justify-center mt-4 md:mt-6">
+            <img 
+                :src="PlaceImage" 
+                alt="Restaurant ambiance" 
+                loading="lazy" 
+                decoding="async" 
+                class="w-full max-w-sm h-auto rounded-tl-2xl rounded-br-2xl rounded-tr-xl rounded-bl-xl object-cover"
+            >
+        </div>
     </div>
  </section>
 </template>
