@@ -2,7 +2,7 @@
 <!-- Newsletter CTA Section - Mobile-First Responsive -->
 <div class="relative flex items-center justify-center w-full py-12 md:py-16 lg:py-20">
     <!-- Conteneur principal avec max-width -->
-    <div class="absolute -top-64 max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+    <div class="absolute -top-40 sm:-top-48 lg:-top-64 max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <!-- Conteneur CTA avec background image responsive -->
         <div class="relative flex flex-col items-center justify-center rounded-2xl md:rounded-3xl overflow-hidden bg-cover bg-no-repeat bg-center min-h-72 md:min-h-96 lg:min-h-125 lg:px-32" style="background-image: url('/src/assets/cta-img-bg1.jpg')">
             
