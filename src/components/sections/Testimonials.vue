@@ -1,9 +1,9 @@
 <template>
-  <section class="pt-20 pb-44 bg-gray sm:pb-55 lg:pb-72 relative overflow-hidden">
-    <!-- Décoration de fond légère (comme sur le template) -->
-    <div class="absolute left-8 top-1/3 opacity-10 pointer-events-none text-[380px] leading-none select-none">
+  <section class="w-screen pt-20 pb-44 bg-gray sm:pb-55 lg:pb-72 relative overflow-hidden">
+    <!-- Image en bg -->
+    <div class="absolute z-0 w-full h-full">
+      <img src="./../../assets/Group_3.svg" alt="Image" class="absolute top-0 left-0">
     </div>
-
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
       <!-- Titre de la section -->
       <div class="text-center mb-16">
