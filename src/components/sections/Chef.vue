@@ -1,6 +1,10 @@
 <template>
     <section id="chef" class="w-full max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 lg:gap-8 py-6 md:py-8 lg:py-12">
+            <div class="absolute -z-5 w-full h-full">
+              <img src="./../../assets/Vector.png" alt="Image" class="absolute top-30 -left-8 opacity-35 -rotate-120">
+              <img src="./../../assets/Vector_3.svg" alt="Image" class="absolute top-25 left-30 opacity-30 scale-200">
+            </div>
             <!-- Contenu texte -->
             <div class="flex flex-col items-start w-full md:w-1/2 p-4 md:p-6 lg:p-8">
                 <h2 class="text-3xl md:text-4xl lg:text-5xl text-black font-bold mb-4 md:mb-5 lg:mb-6">Our Expects Chef</h2>
