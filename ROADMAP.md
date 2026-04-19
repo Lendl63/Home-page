@@ -2,7 +2,7 @@
 ​[x] Initialisation du projet Vue.
 ​[x] Nettoyage des composants de démo (HelloWorld.vue, etc.).
 ​[x] Configuration de Tailwind CSS (Input/Output flow).
-​[ ] Configuration du thème (Couleurs : Orange #ea6d27, Anthracite #101a24).
+​[x] Configuration du thème.
 ​[ ] Importation des polices (ex: Poppins ou Inter) et des assets images.
 
 # Phase 2 : Navigation & Layout Global
