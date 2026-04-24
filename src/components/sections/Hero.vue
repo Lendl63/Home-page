@@ -73,5 +73,5 @@
 <script setup>
     import { Instagram, Facebook, Twitter } from 'lucide-vue-next';
     import PlaceImage from '/src/assets/pexels-volkan-vardar-3887985 1.jpg';
-    import DishImage from '/src/assets/dish-2 1.jpg';
+    import DishImage from '/src/assets/dish-2 1.png';
 </script>
