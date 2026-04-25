@@ -10,7 +10,7 @@
             <div class="absolute inset-0 bg-black/40"></div>
             
             <!-- Contenu du CTA - Positionnement relative au-dessus du background -->
-            <div class="relative z-10 flex flex-col items-center gap-6 md:gap-8 lg:gap-10 px-4 md:px-4 lg:px-6 py-8 md:py-8 lg:py-10 text-center">
+            <div class="relative z-10 flex flex-col items-center gap-6 md:gap-8 lg:gap-10 px-4 md:px-4 lg:px-6 py-8 md:py-8 lg:py-10 text-center" v-scroll-in="'scroll-in'">
                 
                 <!-- Titre responsive -->
                 <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">

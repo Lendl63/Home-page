@@ -2,7 +2,7 @@
  <section id="hero" class="w-full max-w-7xl mx-auto">
     <div class="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-6 lg:gap-8 px-4 md:px-6 lg:px-8 py-8 md:py-12 lg:py-20">
         <!-- Texte et contenu -->
-        <div class="w-full lg:w-1/2 flex flex-col gap-6 md:gap-7 lg:gap-8">
+        <div class="w-full lg:w-1/2 flex flex-col gap-6 md:gap-7 lg:gap-8" v-scroll-in="'scroll-in-left'">
             <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold text-black leading-tight">
                 We provide the<br class="hidden sm:block" /> best food for your
             </h1>

@@ -6,7 +6,7 @@
               <img src="./../../assets/Vector_3.svg" alt="Image" class="absolute top-25 left-30 opacity-30 scale-200">
             </div>
             <!-- Contenu texte -->
-            <div class="flex flex-col items-start w-full md:w-1/2 p-4 md:p-6 lg:p-8">
+            <div class="flex flex-col items-start w-full md:w-1/2 p-4 md:p-6 lg:p-8" v-scroll-in="'scroll-in-left'">
                 <h2 class="text-3xl md:text-4xl lg:text-5xl text-black font-bold mb-4 md:mb-5 lg:mb-6">Our Expects Chef</h2>
                 <p class="text-sm md:text-base lg:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8 lg:mb-10">
                     Lorem ipsum dolor sit amet, consectetur<br class="hidden md:block"/> elit, sed do eiusmod tempor incididunt<br class="hidden md:block"/> labore et dolore magna aliqua.
@@ -22,7 +22,7 @@
             </div>
 
             <!-- Image -->
-            <div class="w-full md:w-1/2 flex justify-center">
+            <div class="w-full md:w-1/2 flex justify-center" v-scroll-in="'scroll-in-right'">
                 <img 
                     :src="ChefImage" 
                     alt="Chef" 

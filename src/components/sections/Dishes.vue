@@ -2,7 +2,7 @@
 <section id="dishes" class="w-screen flex flex-col justify-center items-center mx-auto bg-gray">
     <!-- Section Titre et Grille de plats -->
     <div class="flex flex-col items-center max-w-7xl px-4 md:px-6 lg:px-8 py-8 md:py-12 lg:py-16 gap-8 md:gap-10 lg:gap-14">
-        <div class="flex flex-col items-center gap-3 md:gap-4 lg:gap-6 w-full">
+        <div class="flex flex-col items-center gap-3 md:gap-4 lg:gap-6 w-full" v-scroll-in="'scroll-in-up'">
             <h2 class="text-3xl md:text-4xl lg:text-5xl text-black font-bold text-center">Our Special Dishes</h2>
             <p class="text-sm md:text-base lg:text-lg text-center text-gray-700 max-w-2xl">
                 Lorem ipsum dolor sit amet, consectetur<br class="hidden md:block"/>adipiscing elit, sed do eiusmod tempor incididunt
@@ -14,6 +14,7 @@
             <div 
                 v-for="dish in dishes" 
                 :key="dish.id"
+                v-scroll-in="'scroll-in-scale'"
                 class="relative flex flex-col items-center gap-2 md:gap-3 px-3 md:px-4 pb-6 md:pb-8 lg:pb-10 pt-24 md:pt-32 lg:pt-44 border-4 border-white bg-white/20 hover:bg-white duration-300 ease-in rounded-tl-4xl rounded-br-4xl rounded-tr-lg rounded-bl-lg transition-all hover:shadow-lg hover:scale-105"
             >
                 <div class="absolute -top-20 md:-top-24 lg:-top-26 h-fit">
@@ -31,7 +32,7 @@
     <!-- Section Restaurant Welcome -->
     <div class="w-full flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 lg:gap-16 px-4 md:px-6 lg:px-8 py-8 md:py-12 lg:py-16">
         <!-- Image avec décoration (responsive positioning) -->
-        <div class="w-full lg:w-1/2 flex justify-center relative">
+        <div class="w-full lg:w-1/2 flex justify-center relative" v-scroll-in="'scroll-in-left'">
             <div class="relative w-full max-w-xs md:max-w-sm lg:max-w-md">
                 <img 
                     :src="DishImage" 
@@ -62,7 +63,7 @@
         </div>
 
         <!-- Texte et boutons -->
-        <div class="w-full lg:w-1/2 flex flex-col items-start gap-4 md:gap-5 lg:gap-6 p-4 md:p-6 lg:p-8">
+        <div class="w-full lg:w-1/2 flex flex-col items-start gap-4 md:gap-5 lg:gap-6 p-4 md:p-6 lg:p-8" v-scroll-in="'scroll-in-right'">
             <h2 class="text-3xl md:text-4xl lg:text-5xl text-black font-bold leading-tight">
                 Welcome to Our<br class="hidden sm:block" />Restaurant
             </h2>

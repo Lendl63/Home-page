@@ -6,7 +6,7 @@
     </div>
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
       <!-- Titre de la section -->
-      <div class="text-center mb-16">
+      <div class="text-center mb-16" v-scroll-in="'scroll-in'">
         <h2 class="text-5xl text-black font-bold p-2 mb-5">
           Our Happy Customers
         </h2>
@@ -18,6 +18,7 @@
         <div
           v-for="testimonial in testimonials"
           :key="testimonial.id"
+          v-scroll-in="'scroll-in-scale'"
           class="bg-white rounded-tl-4xl rounded-br-4xl rounded-tr-lg rounded-bl-lg shadow-2xl p-8 pt-16 text-center relative border border-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-105"
         >
           <div class="absolute -top-14 left-1/2 -translate-x-1/2">
