@@ -85,7 +85,7 @@
 <script setup>
     import { dishes } from '../../data/dishes';
     import DishImage from '/src/assets/dish-2 1.png';
-    import LeafImage1 from '/src/assets/leaf-1.jpg';
-    import LeafImage2 from '/src/assets/leaf-2.jpg';
-    import LeafImage3 from '/src/assets/leaf-3.jpg';
+    import LeafImage1 from '/src/assets/image/leaf-1_transparent.png';
+    import LeafImage2 from '/src/assets/image/leaf-2_transparent.png';
+    import LeafImage3 from '/src/assets/image/leaf-3_transparent.png';
 </script>
