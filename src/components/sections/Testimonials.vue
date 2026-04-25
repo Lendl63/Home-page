@@ -2,7 +2,7 @@
   <section class="w-screen pt-20 pb-44 bg-gray sm:pb-55 lg:pb-72 relative overflow-hidden">
     <!-- Image en bg -->
     <div class="absolute z-0 w-full h-full">
-      <img src="./../../assets/Group_3.svg" alt="Image" class="absolute top-0 left-0">
+      <img src="/src/assets/Group_3.svg" alt="Image" class="absolute top-0 left-0">
     </div>
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
       <!-- Titre de la section -->

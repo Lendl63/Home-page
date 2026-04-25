@@ -34,9 +34,9 @@
         <div class="hidden lg:flex w-full lg:w-1/2 relative justify-center items-center">
             <!-- Image en bg -->
             <div class="absolute -z-30 w-full h-full">
-                <img src="./../../assets/Group.svg" alt="Image" class="absolute -top-20 -right-20">
-                <img src="./../../assets/Group_1.svg" alt="Image" class="absolute bottom-0 -right-20">
-                <img src="./../../assets/Group_2.svg" alt="Image" class="absolute -top-20 -left-20">
+                <img src="/src/assets/Group.svg" alt="Image" class="absolute -top-20 -right-20">
+                <img src="/src/assets/Group_1.svg" alt="Image" class="absolute bottom-0 -right-20">
+                <img src="/src/assets/Group_2.svg" alt="Image" class="absolute -top-20 -left-20">
             </div>
             <!-- Image overlay (plat en avant) -->
             <img 
