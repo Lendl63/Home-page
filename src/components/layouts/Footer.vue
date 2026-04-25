@@ -13,7 +13,7 @@
                         <h2 class="text-lg md:text-xl lg:text-2xl font-bold">restaurant</h2>
                     </div>
                     <p class="text-sm md:text-base text-gray-700 leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt labore et dolore magna aliqua.
+                        Restaurant authentique spécialisé dans la cuisine asiatique traditionnelle et moderne. Découvrez des saveurs uniques préparées avec passion et des ingrédients de qualité premium.
                     </p>
                 </div>
 

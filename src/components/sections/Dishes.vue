@@ -3,9 +3,9 @@
     <!-- Section Titre et Grille de plats -->
     <div class="flex flex-col items-center max-w-7xl px-4 md:px-6 lg:px-8 py-8 md:py-12 lg:py-16 gap-8 md:gap-10 lg:gap-14">
         <div class="flex flex-col items-center gap-3 md:gap-4 lg:gap-6 w-full" v-scroll-in="'scroll-in-up'">
-            <h2 class="text-3xl md:text-4xl lg:text-5xl text-black font-bold text-center">Our Special Dishes</h2>
+            <h2 class="text-3xl md:text-4xl lg:text-5xl text-black font-bold text-center">Nos Plats Spéciaux</h2>
             <p class="text-sm md:text-base lg:text-lg text-center text-gray-700 max-w-2xl">
-                Lorem ipsum dolor sit amet, consectetur<br class="hidden md:block"/>adipiscing elit, sed do eiusmod tempor incididunt
+                Sélectionnés avec soin par notre chef, chaque plat est<br class="hidden md:block"/>une création unique qui ravira vos papilles
             </p>
         </div>
 
@@ -65,10 +65,10 @@
         <!-- Texte et boutons -->
         <div class="w-full lg:w-1/2 flex flex-col items-start gap-4 md:gap-5 lg:gap-6 p-4 md:p-6 lg:p-8" v-scroll-in="'scroll-in-right'">
             <h2 class="text-3xl md:text-4xl lg:text-5xl text-black font-bold leading-tight">
-                Welcome to Our<br class="hidden sm:block" />Restaurant
+                Bienvenue dans Notre<br class="hidden sm:block" />Restaurant
             </h2>
             <p class="text-sm md:text-base lg:text-lg text-gray-700 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur<br class="hidden md:block" /> elit, sed do eiusmod tempor incididunt<br class="hidden md:block" /> labore et dolore magna aliqua.
+                Depuis plus de 10 ans, nous proposons une cuisine<br class="hidden md:block" /> authentique et savoureuse préparée avec les<br class="hidden md:block" /> meilleurs ingrédients frais et de qualité.
             </p>
             <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 md:gap-4 w-full sm:w-auto">
                 <button class="rounded-btn text-white bg-black text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:bg-gray-800 transition-all duration-300 hover:scale-105">

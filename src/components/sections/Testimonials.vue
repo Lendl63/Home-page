@@ -8,9 +8,9 @@
       <!-- Titre de la section -->
       <div class="text-center mb-16" v-scroll-in="'scroll-in'">
         <h2 class="text-5xl text-black font-bold p-2 mb-5">
-          Our Happy Customers
+          Nos Clients Satisfaits
         </h2>
-        <p class="p-2 text-center">Lorem ipsum dolor sit amet, consectetur<br/>adipiscing elit, sed do eiusmod tempor incididunt </p>
+        <p class="p-2 text-center">Découvrez les avis de nos clients heureux<br/>qui reviennent régulièrement pour nos délicieuses créations</p>
       </div>
 
       <!-- Grille des témoignages -->

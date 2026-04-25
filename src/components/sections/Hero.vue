@@ -4,12 +4,12 @@
         <!-- Texte et contenu -->
         <div class="w-full lg:w-1/2 flex flex-col gap-6 md:gap-7 lg:gap-8" v-scroll-in="'scroll-in-left'">
             <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold text-black leading-tight">
-                We provide the<br class="hidden sm:block" /> best food for your
+                Découvrez une expérience<br class="hidden sm:block" /> culinaire exceptionnelle
             </h1>
             
             <div class="flex flex-col items-start gap-4 md:gap-5 lg:gap-6">
                 <p class="text-sm md:text-base lg:text-lg text-gray-700 leading-relaxed max-w-md">
-                    Lorem ipsum dolor sit amet, consectetur<br class="hidden md:block" /> adipiscing elit, sed do eiusmod tempor incididunt<br class="hidden md:block" /> ut labore et dolore magna aliqua.
+                    Savourez les meilleures saveurs<br class="hidden md:block" /> de la cuisine asiatique traditionnelle<br class="hidden md:block" /> avec une touche moderne et créative.
                 </p>
                 
                 <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 md:gap-4 w-full sm:w-auto">

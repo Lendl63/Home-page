@@ -7,9 +7,9 @@
             </div>
             <!-- Contenu texte -->
             <div class="flex flex-col items-start w-full md:w-1/2 p-4 md:p-6 lg:p-8" v-scroll-in="'scroll-in-left'">
-                <h2 class="text-3xl md:text-4xl lg:text-5xl text-black font-bold mb-4 md:mb-5 lg:mb-6">Our Expects Chef</h2>
+                <h2 class="text-3xl md:text-4xl lg:text-5xl text-black font-bold mb-4 md:mb-5 lg:mb-6">Notre Chef Talentueux</h2>
                 <p class="text-sm md:text-base lg:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8 lg:mb-10">
-                    Lorem ipsum dolor sit amet, consectetur<br class="hidden md:block"/> elit, sed do eiusmod tempor incididunt<br class="hidden md:block"/> labore et dolore magna aliqua.
+                    Avec 15 ans d'expérience en cuisine asiatique,<br class="hidden md:block"/> notre chef crée des plats innovants qui<br class="hidden md:block"/> fusionnent tradition et modernité avec passion.
                 </p>
                 <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 md:gap-4 w-full sm:w-auto">
                     <button class="rounded-btn text-white bg-black text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:bg-gray-800 transition-all duration-300 hover:scale-105">
