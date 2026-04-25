@@ -14,7 +14,7 @@
             <div 
                 v-for="dish in dishes" 
                 :key="dish.id"
-                class="relative flex flex-col items-center gap-2 md:gap-3 px-3 md:px-4 pb-6 md:pb-8 lg:pb-10 pt-24 md:pt-32 lg:pt-44 border-4 border-white bg-white/20 hover:bg-white duration-300 ease-in rounded-tl-4xl rounded-br-4xl rounded-tr-lg rounded-bl-lg transition-colors"
+                class="relative flex flex-col items-center gap-2 md:gap-3 px-3 md:px-4 pb-6 md:pb-8 lg:pb-10 pt-24 md:pt-32 lg:pt-44 border-4 border-white bg-white/20 hover:bg-white duration-300 ease-in rounded-tl-4xl rounded-br-4xl rounded-tr-lg rounded-bl-lg transition-all hover:shadow-lg hover:scale-105"
             >
                 <div class="absolute -top-20 md:-top-24 lg:-top-26 h-fit">
                     <img :src="dish.image" :alt="dish.name" loading="lazy" class="w-32 md:w-44 lg:w-60 h-32 md:h-44 lg:h-60 object-cover">
@@ -70,10 +70,10 @@
                 Lorem ipsum dolor sit amet, consectetur<br class="hidden md:block" /> elit, sed do eiusmod tempor incididunt<br class="hidden md:block" /> labore et dolore magna aliqua.
             </p>
             <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 md:gap-4 w-full sm:w-auto">
-                <button class="rounded-btn text-white bg-black text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:bg-gray-800 transition-colors">
+                <button class="rounded-btn text-white bg-black text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:bg-gray-800 transition-all duration-300 hover:scale-105">
                     Menu
                 </button>
-                <button class="rounded-btn text-white bg-primary text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:opacity-90 transition-opacity">
+                <button class="rounded-btn text-white bg-primary text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:opacity-90 transition-all duration-300 hover:scale-105">
                     Book to table
                 </button>
             </div>

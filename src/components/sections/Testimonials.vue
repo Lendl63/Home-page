@@ -18,7 +18,7 @@
         <div
           v-for="testimonial in testimonials"
           :key="testimonial.id"
-          class="bg-white rounded-tl-4xl rounded-br-4xl rounded-tr-lg rounded-bl-lg shadow-2xl p-8 pt-16 text-center relative border border-gray-100"
+          class="bg-white rounded-tl-4xl rounded-br-4xl rounded-tr-lg rounded-bl-lg shadow-2xl p-8 pt-16 text-center relative border border-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-105"
         >
           <div class="absolute -top-14 left-1/2 -translate-x-1/2">
             <img

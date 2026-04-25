@@ -12,10 +12,10 @@
                     Lorem ipsum dolor sit amet, consectetur<br class="hidden md:block"/> elit, sed do eiusmod tempor incididunt<br class="hidden md:block"/> labore et dolore magna aliqua.
                 </p>
                 <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 md:gap-4 w-full sm:w-auto">
-                    <button class="rounded-btn text-white bg-black text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:bg-gray-800 transition-colors">
+                    <button class="rounded-btn text-white bg-black text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:bg-gray-800 transition-all duration-300 hover:scale-105">
                         Menu
                     </button>
-                    <button class="rounded-btn text-white bg-primary text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:opacity-90 transition-opacity">
+                    <button class="rounded-btn text-white bg-primary text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:opacity-90 transition-all duration-300 hover:scale-105">
                         Book to table
                     </button>
                 </div>

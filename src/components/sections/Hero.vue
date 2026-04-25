@@ -13,10 +13,10 @@
                 </p>
                 
                 <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 md:gap-4 w-full sm:w-auto">
-                    <button class="rounded-btn text-white bg-black text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:bg-gray-800 transition-colors">
+                    <button class="rounded-btn text-white bg-black text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:bg-gray-800 transition-all duration-300 hover:scale-105">
                         Menu
                     </button>
-                    <button class="rounded-btn text-white bg-primary text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:opacity-90 transition-opacity">
+                    <button class="rounded-btn text-white bg-primary text-sm md:text-base px-6 md:px-8 py-2 md:py-3 hover:opacity-90 transition-all duration-300 hover:scale-105">
                         Book to table
                     </button>
                 </div>
@@ -24,9 +24,9 @@
 
             <!-- Icônes sociales -->
             <div class="flex items-center gap-4 md:gap-5 lg:gap-6 pt-4 md:pt-6">
-                <Instagram class="w-5 md:w-6 lg:w-7 h-5 md:h-6 lg:h-7 hover:text-primary transition-all duration-400 cursor-pointer" />
-                <Facebook class="w-5 md:w-6 lg:w-7 h-5 md:h-6 lg:h-7 hover:text-primary transition-all duration-400 cursor-pointer" />
-                <Twitter class="w-5 md:w-6 lg:w-7 h-5 md:h-6 lg:h-7 hover:text-primary transition-all duration-400 cursor-pointer" />
+                <Instagram class="w-5 md:w-6 lg:w-7 h-5 md:h-6 lg:h-7 hover:text-primary transition-all duration-300 cursor-pointer hover:scale-125" />
+                <Facebook class="w-5 md:w-6 lg:w-7 h-5 md:h-6 lg:h-7 hover:text-primary transition-all duration-300 cursor-pointer hover:scale-125" />
+                <Twitter class="w-5 md:w-6 lg:w-7 h-5 md:h-6 lg:h-7 hover:text-primary transition-all duration-300 cursor-pointer hover:scale-125" />
             </div>
         </div>
 

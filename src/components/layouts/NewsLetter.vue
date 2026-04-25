@@ -27,13 +27,13 @@
                         id="email" 
                         placeholder="Enter your email" 
                         required 
-                        class="w-full sm:flex-1 py-2 md:py-3 px-3 md:px-4 bg-white text-sm md:text-base text-black placeholder-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200"
+                        class="w-full sm:flex-1 py-2 md:py-3 px-3 md:px-4 bg-white text-sm md:text-base text-black placeholder-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300 focus:scale-105"
                     >
                     
                     <!-- Bouton Subscribe - Responsive -->
                     <button 
                         type="submit"
-                        class="w-full sm:w-auto px-6 md:px-8 lg:px-10 py-2 md:py-3 lg:py-3 bg-primary hover:opacity-90 text-white text-sm md:text-base font-bold rounded-lg transition-all duration-200 hover:shadow-md shrink-0"
+                        class="w-full sm:w-auto px-6 md:px-8 lg:px-10 py-2 md:py-3 lg:py-3 bg-primary hover:opacity-90 text-white text-sm md:text-base font-bold rounded-lg transition-all duration-300 hover:shadow-md hover:scale-105 shrink-0"
                     >
                         Subscribe
                     </button>
