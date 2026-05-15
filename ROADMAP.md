@@ -3,7 +3,7 @@
 ​[x] Nettoyage des composants de démo (HelloWorld.vue, etc.).
 ​[x] Configuration de Tailwind CSS (Input/Output flow).
 ​[x] Configuration du thème.
-​[ ] Importation des polices (ex: Poppins ou Inter) et des assets images.
+​[x] Importation des polices (ex: Poppins ou Inter) et des assets images.
 
 # Phase 2 : Navigation & Layout Global
 ​[x] Création du composant Navbar.vue (Logo, Menu, Bouton "Order Now").
