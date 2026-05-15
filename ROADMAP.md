@@ -30,6 +30,6 @@
 ​[ ] Ajout des éléments décoratifs en arrière-plan (dessins de légumes/épices).
 
 # Phase 7 : Polissage & Responsive
-​[ ] Vérification de la fluidité sur mobile et tablette.
-​[ ] Ajout d'animations légères au survol (hover) et au scroll.
+​[x] Vérification de la fluidité sur mobile et tablette.
+​[x] Ajout d'animations légères au survol (hover) et au scroll.
 ​[ ] Optimisation finale des assets.
